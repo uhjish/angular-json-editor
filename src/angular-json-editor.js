@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angular-json-editor', []).provider('JSONEditor', function () {
+angular.module('jsoneditor', []).provider('JSONEditor', function () {
     var configuration = {
         defaults: {
             options: {
@@ -151,3 +151,7 @@ angular.module('angular-json-editor', []).provider('JSONEditor', function () {
         }
     };
 }]);
+
+if (typeof module === 'object') {
+  module.exports='jsoneditor';
+}

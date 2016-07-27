@@ -5,7 +5,11 @@
         "type": "git",
         "url": "git://github.com/rodikh/angular-json-editor.git"
     },
-    "main": "dist/angular-json-editor.js",
+    "main": "src/angular-json-editor.js",
+    "dependencies": {
+        "json-editor": "^0.7.18",
+        "angular": "1.*"
+    },
     "devDependencies": {
         "grunt": "0.4.*",
         "grunt-contrib-jshint": "0.10.*",
